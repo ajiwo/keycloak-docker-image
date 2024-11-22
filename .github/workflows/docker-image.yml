@@ -1,8 +1,6 @@
 name: docker-image-ci
 on:
   push:
-    branches:
-      - "**"
     tags:
       - "v*.*.*"
   pull_request:
