@@ -1,5 +1,5 @@
 name: docker-image-ci
-n:
+on:
   push:
     branches:
       - "**"
